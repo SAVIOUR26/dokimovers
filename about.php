@@ -9,7 +9,7 @@ include __DIR__ . '/includes/header.php';
     <h1>About DOKI Movers</h1>
     <p>Uganda's trusted moving company — built on care, commitment, and expertise.</p>
     <div class="breadcrumb">
-      <a href="index.php">Home</a>
+      <a href="/">Home</a>
       <i class="fas fa-chevron-right"></i>
       <span>About Us</span>
     </div>
@@ -33,8 +33,8 @@ include __DIR__ . '/includes/header.php';
           Today, DOKI Movers is headquartered at <strong>Cham Towers, Kampala Road</strong> — a strategic location that allows us to deploy quickly and efficiently across the entire country and beyond borders.
         </p>
         <div style="display:flex;gap:16px;flex-wrap:wrap;">
-          <a href="contact.php"  class="btn btn-primary"><i class="fas fa-envelope"></i> Get a Quote</a>
-          <a href="services.php" class="btn btn-navy"><i class="fas fa-boxes-stacked"></i> Our Services</a>
+          <a href="/contact"  class="btn btn-primary"><i class="fas fa-envelope"></i> Get a Quote</a>
+          <a href="/services" class="btn btn-navy"><i class="fas fa-boxes-stacked"></i> Our Services</a>
         </div>
       </div>
       <div class="about-visual fade-up">

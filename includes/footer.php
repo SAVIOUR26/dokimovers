@@ -10,7 +10,7 @@
         <p>Get a free quote today — our team is available 24/7 to assist you.</p>
       </div>
       <div class="cta-actions">
-        <a href="contact.php"       class="btn btn-white"><i class="fas fa-envelope"></i> Get Free Quote</a>
+        <a href="/contact" class="btn btn-white"><i class="fas fa-envelope"></i> Get Free Quote</a>
         <a href="tel:+256781703642" class="btn btn-navy"><i class="fas fa-phone-alt"></i> 0781703642</a>
       </div>
     </div>
@@ -26,7 +26,7 @@
 
         <!-- Brand -->
         <div class="footer-brand">
-          <a href="index.php" class="logo" aria-label="DOKI Movers">
+          <a href="/" class="logo" aria-label="DOKI Movers">
             <div class="logo-icon"><i class="fas fa-truck-moving"></i></div>
             <div class="logo-text">
               <span class="logo-name">DOKI <span>Movers</span></span>
@@ -48,11 +48,11 @@
         <div class="footer-col">
           <h4>Quick Links</h4>
           <ul class="footer-links">
-            <li><a href="index.php"><i class="fas fa-chevron-right"></i> Home</a></li>
-            <li><a href="about.php"><i class="fas fa-chevron-right"></i> About Us</a></li>
-            <li><a href="services.php"><i class="fas fa-chevron-right"></i> Services</a></li>
-            <li><a href="gallery.php"><i class="fas fa-chevron-right"></i> Gallery</a></li>
-            <li><a href="contact.php"><i class="fas fa-chevron-right"></i> Contact</a></li>
+            <li><a href="/"><i class="fas fa-chevron-right"></i> Home</a></li>
+            <li><a href="/about"><i class="fas fa-chevron-right"></i> About Us</a></li>
+            <li><a href="/services"><i class="fas fa-chevron-right"></i> Services</a></li>
+            <li><a href="/gallery"><i class="fas fa-chevron-right"></i> Gallery</a></li>
+            <li><a href="/contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
           </ul>
         </div>
 
@@ -60,11 +60,11 @@
         <div class="footer-col">
           <h4>Our Services</h4>
           <ul class="footer-links">
-            <li><a href="services.php"><i class="fas fa-chevron-right"></i> House Moving</a></li>
-            <li><a href="services.php"><i class="fas fa-chevron-right"></i> Office Relocation</a></li>
-            <li><a href="services.php"><i class="fas fa-chevron-right"></i> Pet Moving</a></li>
-            <li><a href="services.php"><i class="fas fa-chevron-right"></i> International Moves</a></li>
-            <li><a href="services.php"><i class="fas fa-chevron-right"></i> Safe Packaging</a></li>
+            <li><a href="/services"><i class="fas fa-chevron-right"></i> House Moving</a></li>
+            <li><a href="/services"><i class="fas fa-chevron-right"></i> Office Relocation</a></li>
+            <li><a href="/services"><i class="fas fa-chevron-right"></i> Pet Moving</a></li>
+            <li><a href="/services"><i class="fas fa-chevron-right"></i> International Moves</a></li>
+            <li><a href="/services"><i class="fas fa-chevron-right"></i> Safe Packaging</a></li>
           </ul>
         </div>
 

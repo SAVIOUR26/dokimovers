@@ -40,7 +40,7 @@ include __DIR__ . '/includes/header.php';
     <h1>Contact DOKI Movers</h1>
     <p>Get a free, no-obligation quote for your next move. We respond within minutes.</p>
     <div class="breadcrumb">
-      <a href="index.php">Home</a>
+      <a href="/">Home</a>
       <i class="fas fa-chevron-right"></i>
       <span>Contact</span>
     </div>
@@ -136,7 +136,7 @@ include __DIR__ . '/includes/header.php';
         </div>
         <?php endif; ?>
 
-        <form id="contactForm" method="POST" action="contact.php" novalidate>
+        <form id="contactForm" method="POST" action="/contact" novalidate>
           <div class="form-row">
             <div class="form-group">
               <label for="name">Full Name <span style="color:red">*</span></label>

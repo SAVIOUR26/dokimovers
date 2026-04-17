@@ -70,7 +70,7 @@ $email     = 'info@dokimovers.com';
     <div class="nav-inner">
 
       <!-- Logo -->
-      <a href="index.php" class="logo" aria-label="DOKI Movers Home">
+      <a href="/" class="logo" aria-label="DOKI Movers Home">
         <div class="logo-icon" aria-hidden="true">
           <i class="fas fa-truck-moving"></i>
         </div>
@@ -82,11 +82,11 @@ $email     = 'info@dokimovers.com';
 
       <!-- Nav links -->
       <ul class="nav-menu" role="list">
-        <li><a href="index.php"    class="nav-link <?= $page==='index.php' ? 'active' : '' ?>">Home</a></li>
-        <li><a href="about.php"    class="nav-link <?= $page==='about.php' ? 'active' : '' ?>">About Us</a></li>
-        <li><a href="services.php" class="nav-link <?= $page==='services.php' ? 'active' : '' ?>">Services</a></li>
-        <li><a href="gallery.php"  class="nav-link <?= $page==='gallery.php' ? 'active' : '' ?>">Gallery</a></li>
-        <li><a href="contact.php"  class="nav-link <?= $page==='contact.php' ? 'active' : '' ?>">Contact</a></li>
+        <li><a href="/"         class="nav-link <?= $page==='index.php' ? 'active' : '' ?>">Home</a></li>
+        <li><a href="/about"    class="nav-link <?= $page==='about.php' ? 'active' : '' ?>">About Us</a></li>
+        <li><a href="/services" class="nav-link <?= $page==='services.php' ? 'active' : '' ?>">Services</a></li>
+        <li><a href="/gallery"  class="nav-link <?= $page==='gallery.php' ? 'active' : '' ?>">Gallery</a></li>
+        <li><a href="/contact"  class="nav-link <?= $page==='contact.php' ? 'active' : '' ?>">Contact</a></li>
         <li><a href="<?= $phoneLink ?>" class="btn btn-primary nav-cta"><i class="fas fa-phone-alt"></i> Call Now</a></li>
       </ul>
 

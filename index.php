@@ -21,8 +21,8 @@ include __DIR__ . '/includes/header.php';
           DOKI Movers delivers professional, safe, and on-time relocation services across Uganda — houses, offices, pets, and international moves. We handle the heavy lifting so you don't have to.
         </p>
         <div class="hero-actions">
-          <a href="contact.php"       class="btn btn-primary"><i class="fas fa-calendar-check"></i> Get a Free Quote</a>
-          <a href="services.php"      class="btn btn-outline"><i class="fas fa-boxes-stacked"></i> Our Services</a>
+          <a href="/contact"       class="btn btn-primary"><i class="fas fa-calendar-check"></i> Get a Free Quote</a>
+          <a href="/services"      class="btn btn-outline"><i class="fas fa-boxes-stacked"></i> Our Services</a>
         </div>
         <div class="hero-stats">
           <div class="hero-stat">
@@ -279,7 +279,7 @@ include __DIR__ . '/includes/header.php';
         <i class="fas fa-map"></i>
         <p style="font-size:1.1rem;">Uganda — Full Coverage</p>
         <p style="font-size:.85rem;color:var(--gray);margin-top:8px;">50+ Districts Served Nationwide</p>
-        <a href="contact.php" class="btn btn-navy" style="margin-top:24px;">
+        <a href="/contact" class="btn btn-navy" style="margin-top:24px;">
           <i class="fas fa-location-dot"></i> Check Your Area
         </a>
       </div>

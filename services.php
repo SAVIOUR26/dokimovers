@@ -9,7 +9,7 @@ include __DIR__ . '/includes/header.php';
     <h1>Our Moving Services</h1>
     <p>Comprehensive, professional moving solutions tailored to every need — big or small.</p>
     <div class="breadcrumb">
-      <a href="index.php">Home</a>
+      <a href="/">Home</a>
       <i class="fas fa-chevron-right"></i>
       <span>Services</span>
     </div>
@@ -194,7 +194,7 @@ include __DIR__ . '/includes/header.php';
           </li>
           <?php endforeach; ?>
         </ul>
-        <a href="contact.php" class="btn <?= $bg==='var(--navy)' ? 'btn-primary' : ($bg==='var(--gold)' ? 'btn-navy' : 'btn-navy') ?>" style="width:100%;justify-content:center;">
+        <a href="/contact" class="btn <?= $bg==='var(--navy)' ? 'btn-primary' : ($bg==='var(--gold)' ? 'btn-navy' : 'btn-navy') ?>" style="width:100%;justify-content:center;">
           Get a Quote
         </a>
       </div>

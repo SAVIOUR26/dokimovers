@@ -9,7 +9,7 @@ include __DIR__ . '/includes/header.php';
     <h1>Our Work Gallery</h1>
     <p>A glimpse into the DOKI Movers team in action — safe, professional, and efficient every time.</p>
     <div class="breadcrumb">
-      <a href="index.php">Home</a>
+      <a href="/">Home</a>
       <i class="fas fa-chevron-right"></i>
       <span>Gallery</span>
     </div>
