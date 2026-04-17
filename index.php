@@ -118,7 +118,7 @@ include __DIR__ . '/includes/header.php';
         ['fas fa-paw',            'Pet Moving',            'Certified, comfortable transport for your beloved animals — locally and internationally.', 'services.php'],
         ['fas fa-globe',          'International Moves',   'Cross-border relocations with proper documentation, customs clearance, and door-to-door delivery.', 'services.php'],
         ['fas fa-box',            'Safety Packaging',      'High-quality packing materials and expert wrapping to protect every item — fragile or heavy.', 'services.php'],
-        ['fas fa-warehouse',      'Storage Solutions',     'Short and long-term secure storage for your belongings while you're between locations.', 'services.php'],
+        ['fas fa-warehouse',      'Storage Solutions',     'Short and long-term secure storage for your belongings while you\'re between locations.', 'services.php'],
       ];
       foreach ($services as $s):
       ?>

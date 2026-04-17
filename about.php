@@ -101,7 +101,7 @@ include __DIR__ . '/includes/header.php';
         ['fas fa-shield-halved', 'Safety First',    'Every item is handled with the utmost care, as if it were our own.'],
         ['fas fa-bolt',          'Reliability',     'We show up when we say we will, and we deliver what we promise.'],
         ['fas fa-heart',         'Customer Love',   'Our clients are at the center of every decision we make.'],
-        ['fas fa-leaf',          'Sustainability',  'We operate responsibly, minimising our footprint on Uganda's environment.'],
+        ['fas fa-leaf',          'Sustainability',  'We operate responsibly, minimising our footprint on Uganda\'s environment.'],
         ['fas fa-graduation-cap','Professionalism', 'Our team is trained, uniformed, and committed to excellence on every job.'],
       ];
       foreach ($values as $v):
