@@ -31,7 +31,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 
-include 'includes/header.php';
+include __DIR__ . '/includes/header.php';
 ?>
 
 <!-- Page Hero -->
@@ -238,8 +238,4 @@ include 'includes/header.php';
   </div>
 </section>
 
-<?php
-/* Skip the footer's built-in CTA since we already have one above */
-$_SERVER['PHP_SELF'] = 'contact.php';
-include 'includes/footer.php';
-?>
+<?php include __DIR__ . '/includes/footer.php'; ?>

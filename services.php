@@ -1,6 +1,6 @@
 <?php
 $pageTitle = 'Services – Moving Solutions by DOKI Movers Uganda';
-include 'includes/header.php';
+include __DIR__ . '/includes/header.php';
 ?>
 
 <!-- Page Hero -->
@@ -206,4 +206,4 @@ include 'includes/header.php';
   </div>
 </section>
 
-<?php include 'includes/footer.php'; ?>
+<?php include __DIR__ . '/includes/footer.php'; ?>
