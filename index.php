@@ -249,26 +249,29 @@ include __DIR__ . '/includes/header.php';
       <h2 class="section-title">See DOKI Movers in Action</h2>
       <p class="section-subtitle">Real moves. Real care. Every photo tells the story of a family or business we helped move forward.</p>
     </div>
+    <?php
+    $ghcdn = 'https://raw.githubusercontent.com/SAVIOUR26/dokimovers/main/Photos/';
+    ?>
     <div class="home-gallery">
       <!-- 1: wide 960×533 → spans 2 cols -->
       <div class="home-gallery-item hg-wide fade-up">
-        <img src="Photos/doki-packing-warehouse.jpg" alt="DOKI Movers team packing boxes in warehouse" loading="lazy">
+        <img src="<?= $ghcdn ?>doki-packing-warehouse.webp" alt="DOKI Movers team packing boxes in warehouse" loading="lazy">
       </div>
       <!-- 2: portrait 1200×1611 → spans 2 rows -->
       <div class="home-gallery-item hg-portrait fade-up">
-        <img src="Photos/doki-truck-loading.jpg" alt="DOKI Movers crew loading a truck" loading="lazy">
+        <img src="<?= $ghcdn ?>doki-truck-loading.webp" alt="DOKI Movers crew loading a truck" loading="lazy">
       </div>
       <!-- 3: nearly square 1094×960 → normal -->
       <div class="home-gallery-item fade-up">
-        <img src="Photos/doki-truck-branded.jpg" alt="DOKI Movers branded truck ready for a move" loading="lazy">
+        <img src="<?= $ghcdn ?>doki-truck-branded.webp" alt="DOKI Movers branded truck ready for a move" loading="lazy">
       </div>
       <!-- 4: 3:2 600×400 → normal -->
       <div class="home-gallery-item fade-up">
-        <img src="Photos/doki-mover-checklist.jpeg" alt="Professional DOKI mover with checklist and boxes" loading="lazy">
+        <img src="<?= $ghcdn ?>doki-mover-checklist.webp" alt="Professional DOKI mover with checklist and boxes" loading="lazy">
       </div>
       <!-- 5: wide 500×278 → spans 2 cols -->
       <div class="home-gallery-item hg-wide fade-up">
-        <img src="Photos/doki-team-carry.jpg" alt="DOKI Movers team carrying boxes" loading="lazy">
+        <img src="<?= $ghcdn ?>doki-team-carry.webp" alt="DOKI Movers team carrying boxes" loading="lazy">
       </div>
       <!-- CTA card -->
       <div class="home-gallery-item hg-cta fade-up">

@@ -40,19 +40,20 @@ include __DIR__ . '/includes/header.php';
 
       <?php
       /* ── Real photos (displayed first) ── */
+      $ghcdn  = 'https://raw.githubusercontent.com/SAVIOUR26/dokimovers/main/Photos/';
       $photos = [
-        /* [file,                         alt,                                    cat,          span   ] */
-        ['doki-packing-warehouse.jpg', 'Team packing boxes in warehouse',      'packing',    'large'],
-        ['doki-truck-loading.jpg',     'Crew loading a truck for a move',      'transport',  ''],
-        ['doki-truck-branded.jpg',     'DOKI Movers branded truck at a home',  'transport',  ''],
-        ['doki-mover-checklist.jpeg',  'Professional mover with parcels',      'packing',    ''],
-        ['doki-team-carry.jpg',        'Team carrying boxes into a building',  'house',      ''],
+        /* [file,                          alt,                                    cat,          span   ] */
+        ['doki-packing-warehouse.webp', 'Team packing boxes in warehouse',      'packing',    'large'],
+        ['doki-truck-loading.webp',     'Crew loading a truck for a move',      'transport',  ''],
+        ['doki-truck-branded.webp',     'DOKI Movers branded truck at a home',  'transport',  ''],
+        ['doki-mover-checklist.webp',   'Professional mover with parcels',      'packing',    ''],
+        ['doki-team-carry.webp',        'Team carrying boxes into a building',  'house',      ''],
       ];
       foreach ($photos as $p):
         $cls = 'gallery-item photo fade-up' . ($p[3] ? ' ' . $p[3] : '');
       ?>
       <div class="<?= $cls ?>" data-cat="<?= $p[2] ?>" data-label="<?= htmlspecialchars($p[1]) ?>">
-        <img src="Photos/<?= $p[0] ?>" alt="<?= htmlspecialchars($p[1]) ?>" loading="lazy">
+        <img src="<?= $ghcdn . $p[0] ?>" alt="<?= htmlspecialchars($p[1]) ?>" loading="lazy">
         <span class="gallery-item-label"><?= htmlspecialchars($p[1]) ?></span>
       </div>
       <?php endforeach; ?>
