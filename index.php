@@ -241,6 +241,45 @@ include __DIR__ . '/includes/header.php';
   </div>
 </section>
 
+<!-- ═══════════════════ PHOTO GALLERY ═══════════════════ -->
+<section class="section-pad" id="photos">
+  <div class="container">
+    <div class="text-center">
+      <span class="section-tag">Our Work in Photos</span>
+      <h2 class="section-title">See DOKI Movers in Action</h2>
+      <p class="section-subtitle">Real moves. Real care. Every photo tells the story of a family or business we helped move forward.</p>
+    </div>
+    <div class="home-gallery">
+      <!-- 1: wide 960×533 → spans 2 cols -->
+      <div class="home-gallery-item hg-wide fade-up">
+        <img src="Photos/doki-packing-warehouse.jpg" alt="DOKI Movers team packing boxes in warehouse" loading="lazy">
+      </div>
+      <!-- 2: portrait 1200×1611 → spans 2 rows -->
+      <div class="home-gallery-item hg-portrait fade-up">
+        <img src="Photos/doki-truck-loading.jpg" alt="DOKI Movers crew loading a truck" loading="lazy">
+      </div>
+      <!-- 3: nearly square 1094×960 → normal -->
+      <div class="home-gallery-item fade-up">
+        <img src="Photos/doki-truck-branded.jpg" alt="DOKI Movers branded truck ready for a move" loading="lazy">
+      </div>
+      <!-- 4: 3:2 600×400 → normal -->
+      <div class="home-gallery-item fade-up">
+        <img src="Photos/doki-mover-checklist.jpeg" alt="Professional DOKI mover with checklist and boxes" loading="lazy">
+      </div>
+      <!-- 5: wide 500×278 → spans 2 cols -->
+      <div class="home-gallery-item hg-wide fade-up">
+        <img src="Photos/doki-team-carry.jpg" alt="DOKI Movers team carrying boxes" loading="lazy">
+      </div>
+      <!-- CTA card -->
+      <div class="home-gallery-item hg-cta fade-up">
+        <i class="fas fa-images"></i>
+        <p>More from our moves</p>
+        <a href="gallery.php" class="btn btn-primary" style="margin-top:14px;font-size:.85rem;">View Full Gallery</a>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- ═══════════════════ COVERAGE ═══════════════════ -->
 <section class="section-pad bg-light" id="coverage">
   <div class="container">
