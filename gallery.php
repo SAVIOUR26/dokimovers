@@ -37,37 +37,54 @@ include __DIR__ . '/includes/header.php';
 
     <!-- Grid -->
     <div class="gallery-grid">
+
       <?php
+      /* ── Real photos (displayed first) ── */
+      $photos = [
+        /* [file,                         alt,                                    cat,          span   ] */
+        ['doki-packing-warehouse.jpg', 'Team packing boxes in warehouse',      'packing',    'large'],
+        ['doki-truck-loading.jpg',     'Crew loading a truck for a move',      'transport',  ''],
+        ['doki-truck-branded.jpg',     'DOKI Movers branded truck at a home',  'transport',  ''],
+        ['doki-mover-checklist.jpeg',  'Professional mover with parcels',      'packing',    ''],
+        ['doki-team-carry.jpg',        'Team carrying boxes into a building',  'house',      ''],
+      ];
+      foreach ($photos as $p):
+        $cls = 'gallery-item photo fade-up' . ($p[3] ? ' ' . $p[3] : '');
+      ?>
+      <div class="<?= $cls ?>" data-cat="<?= $p[2] ?>" data-label="<?= htmlspecialchars($p[1]) ?>">
+        <img src="Photos/<?= $p[0] ?>" alt="<?= htmlspecialchars($p[1]) ?>" loading="lazy">
+        <span class="gallery-item-label"><?= htmlspecialchars($p[1]) ?></span>
+      </div>
+      <?php endforeach; ?>
+
+      <?php
+      /* ── Icon-based placeholder items ── */
       $items = [
         ['fas fa-house',            'House Move – Kampala',         'house',         ''],
-        ['fas fa-boxes-stacked',    'Professional Packing',         'packing',       'large'],
-        ['fas fa-truck-moving',     'Fleet on the Move',            'transport',     ''],
         ['fas fa-building',         'Office Relocation – CBD',      'office',        ''],
-        ['fas fa-box-open',         'Safety Packaging',             'packing',       ''],
         ['fas fa-globe-africa',     'International – Nairobi',      'international', ''],
         ['fas fa-couch',            'Living Room – Mukono Move',    'house',         'gold'],
         ['fas fa-server',           'IT Equipment Move',            'office',        ''],
-        ['fas fa-truck',            'Long Haul – Northern Uganda',  'transport',     'large'],
         ['fas fa-paw',              'Pet Transport',                'house',         'gold'],
-        ['fas fa-warehouse',        'Secure Storage',               'packing',       ''],
         ['fas fa-plane-departure',  'Airport Cargo – Entebbe',      'international', ''],
       ];
       foreach ($items as $item):
-        $cls = 'gallery-item fade-up ' . $item[3];
+        $cls = 'gallery-item fade-up' . ($item[3] ? ' ' . $item[3] : '');
       ?>
-      <div class="<?= trim($cls) ?>" data-cat="<?= $item[1] ?>">
+      <div class="<?= trim($cls) ?>" data-cat="<?= $item[2] ?>">
         <i class="<?= $item[0] ?>"></i>
         <p><?= $item[1] ?></p>
       </div>
       <?php endforeach; ?>
+
     </div>
 
-    <!-- Upload notice -->
+    <!-- Social CTA -->
     <div style="text-align:center;margin-top:3rem;padding:32px;background:var(--light);border-radius:16px;">
       <i class="fas fa-images" style="font-size:2.5rem;color:var(--navy);opacity:.4;margin-bottom:12px;display:block;"></i>
-      <h3 style="color:var(--navy);margin-bottom:8px;">More Photos Coming Soon</h3>
+      <h3 style="color:var(--navy);margin-bottom:8px;">Follow Us for More</h3>
       <p style="color:var(--gray);font-size:.9rem;max-width:500px;margin:0 auto 16px;">
-        We're constantly adding new photos from our latest moves across Uganda and beyond. Follow us on social media to stay updated.
+        We share new photos from every move on our social pages. Follow us to see more of our work across Uganda and beyond.
       </p>
       <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
         <a href="#" class="btn btn-navy"><i class="fab fa-facebook-f"></i> Facebook</a>
