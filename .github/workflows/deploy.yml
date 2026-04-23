@@ -28,5 +28,4 @@ jobs:
             **/.git*/**
             **/README.md
             **/.github/**
-            Photos/**
             New Photos/**
