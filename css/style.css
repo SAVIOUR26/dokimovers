@@ -976,6 +976,11 @@ overflow-y:auto;
 .process-steps{grid-template-columns:1fr}
 .home-gallery{grid-template-columns:1fr;grid-auto-rows:220px}
 .home-gallery-item.hg-wide{grid-column:span 1}
-.home-gallery-item.hg-portrait{grid-row:span 1}
-.home-gallery-item.hg-cta{display:none}
 }
+/* ── Photo colour tints ── */
+.home-gallery-item::after,.gallery-item.photo::before{content:'';position:absolute;inset:0;pointer-events:none;border-radius:inherit;z-index:1}
+.gallery-item-label{z-index:2}
+.tint-navy::after,.gallery-item.photo.tint-navy::before{background:linear-gradient(135deg,rgba(27,42,107,.32) 0%,transparent 65%)}
+.tint-gold::after,.gallery-item.photo.tint-gold::before{background:linear-gradient(225deg,rgba(245,197,24,.3) 0%,transparent 65%)}
+.tint-teal::after,.gallery-item.photo.tint-teal::before{background:linear-gradient(45deg,rgba(0,128,150,.3) 0%,transparent 65%)}
+.tint-coral::after,.gallery-item.photo.tint-coral::before{background:linear-gradient(315deg,rgba(220,80,55,.28) 0%,transparent 65%)}
